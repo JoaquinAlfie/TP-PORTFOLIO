@@ -147,6 +147,8 @@ body {
     padding: 30px 60px;
     margin-right: 680px;
     margin-top: 60px;
+    margin-bottom: 60px;
+    min-height: 260px;
 }
 
 .tituloapp {
@@ -169,4 +171,131 @@ body {
     text-align: right;
     font-size: 24px;
     font-weight: 600;
+    padding-top: 40px;
+}
+
+.videojuegos {
+    background-color: #FFFFFF;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding: 30px 60px;
+    margin-left: 680px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulojuegos {
+    font-weight: 600;
+    font-size: 32px;
+    color: #7D71E6;
+}
+
+.relatojuegos {
+    line-height: 1.6;
+    font-weight: 600;
+    font-size: 24px;
+    color: #7D71E6;
+    max-width: 890px;
+}
+
+.fechajuegos {
+    color:#7D71E6;
+    border-color:#7D71E6;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.front {
+    background-color: #FFFFFF;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 30px 60px;
+    margin-right: 680px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulofront {
+    font-weight: 600;
+    font-size: 32px;
+    color: #7D71E6;
+}
+
+.relatofront {
+    line-height: 1.6;
+    font-weight: 600;
+    font-size: 24px;
+    color: #7D71E6;
+    max-width: 874px;
+}
+
+.fechafront {
+    color:#7D71E6;
+    border-color:#7D71E6;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.proyectation {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 59px;
+}
+
+.proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #ffffff;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.comidapp {
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+.infocomidapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: #000000;
+    max-width: 280px;
+}
+.infocomidapp p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+
+.comidita {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.entrar {
+    background-color: #7D71E6;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+    cursor: pointer;
 }
