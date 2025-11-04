@@ -130,7 +130,7 @@ body {
   padding: 0.66rem 1.31rem;
 }
 
-.experiencias {
+#experiencias {
 }
 
 .expe {
@@ -242,6 +242,9 @@ body {
     font-weight: 600;
 }
 
+#proyectosseccion {
+}
+
 .proyectation {
     text-align: center;
     font-size: 36px;
@@ -252,19 +255,19 @@ body {
 .proyecto {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
-    background-color: #ffffff;
+    align-items: flex-start;
     width: fit-content;
-    margin: 0 auto;
+    gap: 40px;
+    background-color: rgba(125, 113, 230, 0.000000000000000000000001);
+    margin-top:50px;
     padding: 30px 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .comidapp {
-    border: 1px solid #000000;
-    border-radius: 6px;
+    cursor: pointer;
 }
 
 .infocomidapp {
@@ -273,29 +276,81 @@ body {
     align-items: flex-start;
     text-align: left;
     color: #000000;
-    max-width: 280px;
+    max-width: 600px;
 }
 .infocomidapp p {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 26px;
+    font-weight: 400;
     line-height: 1.4;
     margin-bottom: 20px;
 }
 
 
 .comidita {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 .entrar {
-    background-color: #7D71E6;
-    color: #FFFFFF;
-    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
     font-weight: 600;
-    border: none;
-    border-radius: 10px;
-    padding: 8px 24px;
     cursor: pointer;
+    border: none;
+    border-radius: 167px;
+    color: #FFFFFF;
+    background-color: #7D71E6;
+    font-size: 20px;
+    padding: 0.66rem 1.31rem;
+}
+
+.nota {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 39px;
+    color: #7D71E6;    
+}
+
+.accionesabajo {
+    margin-top: 49px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.github {
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 167px;
+    color: #FFFFFF;
+    background-color: #7D71E6;
+    font-size: 20px;
+    padding: 0.66rem 1.31rem;
+}
+
+.contactoabajo {
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 167px;
+    color: #FFFFFF;
+    background-color: #7D71E6;
+    font-size: 20px;
+    padding: 0.66rem 1.31rem;
+    
+}
+
+a {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

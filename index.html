@@ -10,16 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
+
+<script>
+  function mostrarCorreo() {
+    alert("📩 Podés escribirme a: 48178973@est.ort.edu.ar");
+  }
+</script>
 <body>
     <header class="navbar">
-        <button class="experiencia">Experiencia</button>
-        <button class="proyectos">Proyectos</button>
-        <button class="contacto">Contacto</button>
+        <a class="experiencia" href="#experiencias">Experiencia</a>
+        <a class="proyectos" href=#proyectosseccion>Proyectos</a>
+        <a class="contacto" onclick="mostrarCorreo()">Contacto</a>
     </header>
     <section class="yo">
         <div class="elchurro">
             <img src="img/churrito.png" alt="churrito" class="churrito" style="width: 126px; height: 127px;" />
-            <button class="disponible">
+            <button class="disponible" href="https://link.mercadopago.com.ar/aimaker">
                 Disponible
             </button>
         </div>
@@ -31,12 +37,12 @@
             Gracias a mi experiencia en diversos proyectos, me he consolidado como un gran entendedor de la arquitectura web, centrándome en la creación de experiencias de usuario dinámicas mediante tecnologías como React, TypeScript, CSS, HTML.
         </p>
         <div class="acciones">
-            <button class="contactame">Contactame</button>
-            <button class="linkedin">Linkedin</button>
+            <button class="contactame" onclick="mostrarCorreo()">Contactame</button>
+            <a class="linkedin" href="https://www.linkedin.com/in/churrito-alfie-48a362391/" target="_blank">Linkedin</a>
         </div>
     </section>
 
-    <section class="experiencias">
+    <section id="experiencias">
         <h2 class="expe">EXPERIENCIAS</h2>
         <div class="aplicacion">
             <div class="tituloapp">Diseñador de una aplicación de escritorio:</div>
@@ -55,24 +61,24 @@
         </div>
     </section>
 
-    <section class="proyectosseccion">
+    <section id="proyectosseccion">
         <h2 class="proyectation">PROYECTOS</h2>
         <div class="proyecto">
-            <img src="img/appcomida.png" alt="comidapp" class="comidapp" style="width: 446px; height: 317px;"/>
+            <img src="img/appcomida.png" alt="comidapp" class="comidapp" style="width: 446px; height: 317px;" />
             <div class="infocomidapp">
                 <h3 class="comidita">COMIDAPP</h3>
                 <p>
-                    -Diseño en Figma de mi primer proyecto
+                    -Diseño en Figma de mi primer proyecto <br>
                     -Nota sobresaliente en proyecto final
                 </p>
-                <button class="entrar">Entrar</button>
+                <a class="entrar" href="https://www.figma.com/design/GUFAcFlcZde60l19PixDfi/CLON-COMIDAPP-PRUEBA?node-id=0-1&t=HiNAGlrGPwVHthoo-1" target="_blank">Entrar</a>
             </div>
         </div>
         <p class="nota">Demás proyectos no disponibles al público</p>
     </section>
     <section class="accionesabajo">
-        <button class="github">Github</button>
-        <button class="contactoabajo">Contacto</button>
+        <a class="github" href="https://github.com/JoaquinAlfie" target="_blank">Github</a>
+        <button class="contactoabajo" onclick="mostrarCorreo()">Contacto</button>
     </section>
 </body>
 </html>
