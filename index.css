@@ -100,11 +100,6 @@ body {
     cursor: pointer;
     width: 225px; 
     height: 77px;
-    transition: color 0.3s ease
-}
-
-.disponible:hover {
-    color: #E6E6E6
 }
 
 .soy {
@@ -137,11 +132,6 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
-    transition: color 0.3s ease
-}
-
-.contactame:hover {
-    color: #E6E6E6
 }
 
 .linkedin {
@@ -154,11 +144,6 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
-    transition: color 0.3s ease
-}
-
-.linkedin:hover {
-    color: #E6E6E6
 }
 
 
@@ -335,11 +320,6 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
-    transition: color 0.3s ease
-}
-
-.entrar:hover {
-    color: #E6E6E6
 }
 
 .nota {
@@ -370,11 +350,6 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
-    transition: color 0.3s ease
-}
-
-.github:hover {
-    color: #E6E6E6
 }
 
 .contactoabajo {
@@ -387,11 +362,6 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
-    transition: color 0.3s ease
-}
-
-.contactoabajo:hover {
-    color: #E6E6E6
 }
 
 a {
@@ -403,4 +373,13 @@ a {
 
 html {
   scroll-behavior: smooth;
+}
+
+button:hover { 
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(125, 113, 230, 0.4);
+}
+a:hover {  
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(125, 113, 230, 0.4);
 }
