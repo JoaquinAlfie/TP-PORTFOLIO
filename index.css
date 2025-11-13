@@ -31,7 +31,13 @@ body {
     cursor: pointer;
     width: 225px; 
     height: 77px;
+    transition: background 0.3s ease
 }
+
+.experiencia:hover {
+     background-color: rgba(125, 113, 230, 0.35);
+}
+
 
 .proyectos {
     text-align: center;
@@ -44,6 +50,11 @@ body {
     cursor: pointer;
     width: 225px; 
     height: 77px;
+    transition: background 0.3s ease
+}
+
+.proyectos:hover {
+    background-color: rgba(125, 113, 230, 0.35);
 }
 
 .contacto {
@@ -57,6 +68,11 @@ body {
     cursor: pointer;
     width: 225px; 
     height: 77px;
+    transition: background 0.3s ease
+}
+
+.contacto:hover {
+    background-color: rgba(125, 113, 230, 0.35);
 }
 
 .yo {
@@ -84,6 +100,11 @@ body {
     cursor: pointer;
     width: 225px; 
     height: 77px;
+    transition: color 0.3s ease
+}
+
+.disponible:hover {
+    color: #F3F3F3
 }
 
 .soy {
@@ -116,6 +137,11 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
+    transition: color 0.3s ease
+}
+
+.contactame:hover {
+    color: #F3F3F3
 }
 
 .linkedin {
@@ -126,9 +152,15 @@ body {
     border-radius: 167px;
     color: #FFFFFF;
     background-color: #7D71E6;
-  font-size: 20px;
-  padding: 0.66rem 1.31rem;
+    font-size: 20px;
+    padding: 0.66rem 1.31rem;
+    transition: color 0.3s ease
 }
+
+.linkedin:hover {
+    color: #F3F3F3
+}
+
 
 #experiencias {
 }
@@ -303,6 +335,11 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
+    transition: color 0.3s ease
+}
+
+.entrar:hover {
+    color: #F3F3F3
 }
 
 .nota {
@@ -333,6 +370,11 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
+    transition: color 0.3s ease
+}
+
+.github:hover {
+    color: #F3F3F3
 }
 
 .contactoabajo {
@@ -345,7 +387,11 @@ body {
     background-color: #7D71E6;
     font-size: 20px;
     padding: 0.66rem 1.31rem;
-    
+    transition: color 0.3s ease
+}
+
+.contactoabajo:hover {
+    color: #F3F3F3
 }
 
 a {
