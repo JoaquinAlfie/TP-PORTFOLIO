@@ -400,3 +400,7 @@ a {
     align-items: center;
     display: flex;
 }
+
+html {
+  scroll-behavior: smooth;
+}
