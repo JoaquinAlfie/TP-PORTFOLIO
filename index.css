@@ -20,6 +20,24 @@ body {
     gap: 30px;
 }
 
+.sobremi {
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    color: #7D71E6;
+    background-color: rgba(125, 113, 230, 0.25);
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 225px; 
+    height: 77px;
+    transition: background 0.3s ease
+}
+
+.sobremi:hover {
+     background-color: rgba(125, 113, 230, 0.35);
+}
+
 .experiencia {
     text-align: center;
     border: none;
@@ -73,6 +91,24 @@ body {
 
 .contacto:hover {
     background-color: rgba(125, 113, 230, 0.35);
+}
+
+.habilidades {
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    color: #7D71E6;
+    background-color: rgba(125, 113, 230, 0.25);
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 225px; 
+    height: 77px;
+    transition: background 0.3s ease
+}
+
+.habilidades:hover {
+     background-color: rgba(125, 113, 230, 0.35);
 }
 
 .yo {
@@ -154,7 +190,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
-    margin-top: 159px;
+    margin-top: 59px;
 }
 
 .aplicacion {
@@ -162,7 +198,7 @@ body {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     padding: 30px 60px;
-    margin-right: 680px;
+    margin-right: 25%;
     margin-top: 60px;
     margin-bottom: 60px;
     min-height: 260px;
@@ -196,7 +232,7 @@ body {
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
     padding: 30px 60px;
-    margin-left: 680px;
+    margin-left: 25%;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -230,7 +266,7 @@ body {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     padding: 30px 60px;
-    margin-right: 680px;
+    margin-right: 25%;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -275,12 +311,11 @@ body {
     align-items: flex-start;
     width: fit-content;
     gap: 40px;
-    background-color: rgba(125, 113, 230, 0.000000000000000000000001);
+    background-color: rgba(125, 113, 230, 0);
     margin-top:50px;
     padding: 30px 40px;
     border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
 }
 
 .comidapp {
@@ -322,25 +357,46 @@ body {
     padding: 0.66rem 1.31rem;
 }
 
-.nota {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 600;
-    margin-top: 39px;
-    color: #7D71E6;    
-}
-
-.accionesabajo {
-    margin-top: 49px;
-    margin-bottom: 20px;
-    margin-right: 200px;
+.proyecto2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
+    width: fit-content;
     gap: 40px;
+    background-color: rgba(125, 113, 230, 0);
+    margin-top:50px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    margin-left: 20%;
 }
 
-.github {
+.aimakerimg {
+    cursor: pointer;
+}
+
+.infoaimaker {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: #000000;
+    max-width: 600px;
+}
+.infoaimaker p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.makercito {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.entrar2 {
+    margin-top: 10px;
     text-align: center;
     font-weight: 600;
     cursor: pointer;
@@ -352,6 +408,131 @@ body {
     padding: 0.66rem 1.31rem;
 }
 
+.nota {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 39px;
+    color: #7D71E6;    
+}
+
+#sobremiseccion {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sobretitulo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 59px;
+}
+.imgtextoredes {
+    display: flex;
+    margin-top: 59px;
+    gap: 80px;
+}
+.imgtextoredes p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.barilo {}
+.redes {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.ig {}
+.yt {}
+.igref:hover {
+    transform: scale(1.03);
+}
+.ytref:hover {
+    transform: scale(1.03);
+}
+
+.habilidadesseccion {
+}
+.habilidadestitulo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 59px;
+}
+.cee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 59px;
+    gap: 110px;
+}
+.cocina {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.titulococina {
+    font-size: 26px;
+}
+.chefref {
+    margin-top: 19px;
+}
+.chefref:hover {
+    transform: scale(1.03);
+}
+.edicion {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tituloedicion {
+    font-size: 26px;
+}
+.editorref {
+    margin-top: 19px;
+}
+.editorref:hover {
+    transform: scale(1.03);
+}
+.escritura {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tituloescritura {
+    font-size: 26px;
+}
+.escritoraref {
+    margin-top: 19px;
+}
+.escritoraref:hover {
+    transform: scale(1.03);
+}
+.escritora {}
+
+.accionesabajo {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 40px;
+}
+.github {
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 167px;
+    color: #FFFFFF;
+    background-color: #7D71E6;
+    font-size: 28px;
+    padding: 0.66rem 1.31rem;
+}
+
 .contactoabajo {
     text-align: center;
     font-weight: 600;
@@ -360,7 +541,7 @@ body {
     border-radius: 167px;
     color: #FFFFFF;
     background-color: #7D71E6;
-    font-size: 20px;
+    font-size: 28px;
     padding: 0.66rem 1.31rem;
 }
 
@@ -375,11 +556,11 @@ html {
   scroll-behavior: smooth;
 }
 
-button:hover { 
+button:not(.yt):not(.ig):not(.chefref):not(.editorref):not(.escritoraref):hover { 
   transform: scale(1.03);
   box-shadow: 0 0 25px rgba(125, 113, 230, 0.4);
 }
-a:hover {  
+a:not(.ytref):not(.igref):not(.chefref):not(.editorref):not(.escritoraref):hover {  
   transform: scale(1.03);
   box-shadow: 0 0 25px rgba(125, 113, 230, 0.4);
 }
